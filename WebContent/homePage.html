@@ -4,8 +4,68 @@
 <meta charset="UTF-8">
 <title>Home Page</title>
 <link rel="stylesheet" href="styling.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<script src="function.js"></script>
+	<header>
+		Every book you pick up has its own lesson or lessons, and quite often
+		the bad books have more to teach than the good ones.
+		<h6>- Stephen King</h6>
+	</header>
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="col-sm-6">
+				<p></p>
+				<p></p>
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6"></div>
+				<p>As discussed in our article explaining how to write a book
+					review, book reviews are very different from book reports. In order
+					to learn what a book review is, you can drop a mail to us below</p>
+				<form action="#">
+					<p>
+						<input type="text" id="name" name="name" text="Name"> <input
+							type="text" id="emailId" name="emailId" text=email>
+					</p>
+					<p>
+						<textarea rows="6" cols="70" id="message" name="message"
+							text="Message"></textarea>
+					</p>
+					<button type="Submit" onclick="sendMail()">Submit</button>
+				</form>
+			</div>
 
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-6"></div>
+					<img src="image/reading1.jpg" alt="Image not available"> <img
+						src="image/book1.jpg" alt="Image not available">
+					<div class="col-sm-6"></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6"></div>
+					<img src="image/starryNight.jpg" alt="Image not available"> <img
+						src="image/fairyLight.gif" alt="Image not available">
+					<div class="col-sm-6"></div>
+					<img src="" alt="Image not available">
+				</div>
+				<div class="row"></div>
+
+			</div>
+
+		</div>
+		<footer>
+			<hr>
+			<div class="container">Conatct Us!!!</div>
+
+		</footer>
 </body>
 </html>
