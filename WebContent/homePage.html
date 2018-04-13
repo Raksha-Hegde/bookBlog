@@ -4,68 +4,124 @@
 <meta charset="UTF-8">
 <title>Home Page</title>
 <link rel="stylesheet" href="styling.css">
+
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
-<body>
+<body">
 	<script src="function.js"></script>
 	<header>
 		Every book you pick up has its own lesson or lessons, and quite often
 		the bad books have more to teach than the good ones.
 		<h6>- Stephen King</h6>
 	</header>
-	<div class="container-fluid text-center">
+	<div class="container-fluid">
+		<div class="row" id="head">
+			<h1 align="center">Books ,Coffee and More.....</h1>
+			</Books>
+		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<p></p>
-				<p></p>
-				<div class="col-sm-6"></div>
-				<div class="col-sm-6"></div>
-				<p>As discussed in our article explaining how to write a book
-					review, book reviews are very different from book reports. In order
-					to learn what a book review is, you can drop a mail to us below</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;A Treasure House of Knowledge. Books
+					are wonderful gifts to mankind. Books are useful in many ways. They
+					educate, entertain and serve as good companions when we are lonely.
+					They guide us when we are confused. They inspire us when we are low
+					in spirit. They are men’s best friends. Books console us when we
+					are in sorrow. We are never alone in the company of books. They
+					demand nothing for the service they do to the mankind.</p>
+				<p>
+				<div class="col-sm-6">
+					<h4>Favorite Books</h4>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+
+				</div>
+				<div class="col-sm-6">
+					<h4>Favorite Authors</h4>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<a href="#" class="fa fa-google-plus-square"
+					style="font-size: 30px; color: #3b5998"></a> <a href="#"
+					class="fa fa-linkedin-square"
+					style="font-size: 30px; color: #3b5998"></a> <a href="#"
+					class="fa fa-facebook-square"
+					style="font-size: 60px; color: #3b5998"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#" class="fa fa-twitter"
+					style="font-size: 60px; color: #00aced"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#" class="fa fa-pinterest"
+					style="font-size: 60px; color: #bb0000""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#" class="fa fa-instagram"
+					style="font-size: 60px; color: #8B4513"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#" class="fa fa-youtube"
+					style="font-size: 60px; color: #bb0000"></a>
+				</p>
+				<p>
+					We would always love to discuss about how to write a book, book
+					review, book reviews which are very different from book reports.<br>
+					Or anything in genral!!!<br> You can always contact us
+				</p>
 				<form action="#">
-					<p>
-						<input type="text" id="name" name="name" text="Name"> <input
-							type="text" id="emailId" name="emailId" text=email>
-					</p>
-					<p>
-						<textarea rows="6" cols="70" id="message" name="message"
-							text="Message"></textarea>
-					</p>
+
+					<label><input type="text" id="name" name="name" text="Name">
+						<input type="text" id="emailId" name="emailId" text="email">
+					</label> <label> <textarea rows="6" cols="70" id="message"
+							name="message" text="Message"></textarea>
+					</label>
 					<button type="Submit" onclick="sendMail()">Submit</button>
 				</form>
 			</div>
-
 			<div class="col-sm-6">
 				<div class="row">
-					<div class="col-sm-6"></div>
-					<img src="image/reading1.jpg" alt="Image not available"> <img
-						src="image/book1.jpg" alt="Image not available">
-					<div class="col-sm-6"></div>
+					<div class="col-sm-6">
+						<img src="image/reading1.jpg" alt="Image not available"
+							class="img-rounded">
+					</div>
+					<div class="col-sm-6">
+						<img src="image/book1.jpg" alt="Image not available"
+							class="img-rounded">
+					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6"></div>
-					<img src="image/starryNight.jpg" alt="Image not available"> <img
-						src="image/fairyLight.gif" alt="Image not available">
-					<div class="col-sm-6"></div>
-					<img src="" alt="Image not available">
+					<div class="col-sm-6">
+						<img src="image/starryNight.jpg" alt="Image not available"
+							class="img-rounded">
+					</div>
+					<div class="col-sm-6">
+						<img src="image/coffeeLove.jpg" alt="Image not available"
+							class="img-rounded">
+					</div>
+
 				</div>
-				<div class="row"></div>
+				<div class="row">
+					<img src="image/fairyLight.gif" alt="Image not available"
+						class="img-thumbnail" name="gif">
+				</div>
 
 			</div>
-
 		</div>
-		<footer>
-			<hr>
-			<div class="container">Conatct Us!!!</div>
 
-		</footer>
+	</div>
+	<footer>
+		<!-- 	<span class="fa fa-book"> -->
+		Thanks for visting!!!Bye
+
+	</footer>
 </body>
 </html>

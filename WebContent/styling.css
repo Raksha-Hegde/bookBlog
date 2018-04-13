@@ -1,19 +1,63 @@
-body {
-	background-color: gray;
-}
+@charset "UTF-8";
 
 header {
 	background-color: #D8BFD8;
+	padding-left: 1.8em
+}
+
+div {
+	background: #D8BFD8;
+	padding-left: 1.8em
 }
 
 hr {
 	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #DA70D6 inset;
-	
 }
 
 footer {
 	background-color: gray;
 }
 
+head {
+	background-color: black;
+}
+
+ul {
+	list-style-type: cjk-ideographic;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-linkedin-square {
+	padding: 0 8px;
+}
+
+.fa-facebook-square:hover {
+	color: #3B5998;
+}
+
+.fa-twitter-square:hover {
+	color: #55acee;
+}
+
+.fa-google-plus-square:hover {
+	color: black
+}
+
+img {
+	padding: .05% 0;
+	width: 250px;
+	height: 300px;
+	margin-bottom: 15px;
+	border-radius: 2;
+	background-color: #DCDCDC;
+}
+
+img.img-thumbnail {
+	padding: .05% 0;
+	width: 500px;
+	height: 300px;
+	margin: 45px;
+	border-radius: 0;
+	background-color: #DCDCDC;
+}
